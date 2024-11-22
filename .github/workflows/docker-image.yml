@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Debug .dockerignore
+      run: cat .dockerignore || echo ".dockerignore not found"
     - uses: actions/checkout@v4
     - name: List files for debugging
       run: ls -al
