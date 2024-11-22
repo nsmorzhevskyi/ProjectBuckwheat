@@ -14,5 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: List files for debugging
+      run: ls -al
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build ./ProjectBuckwheat.API --file ./ProjectBuckwheat.API/Dockerfile --tag my-image-name:$(date +%s)
