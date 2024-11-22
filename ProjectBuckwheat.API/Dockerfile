@@ -5,16 +5,28 @@ EXPOSE 8080
 EXPOSE 8081
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
 ARG BUILD_CONFIGURATION=Release
+
 WORKDIR /src
+
 COPY ["ProjectBuckwheat.API/ProjectBuckwheat.API.csproj", "ProjectBuckwheat.API/"]
+COPY ["ProjectBuckwheat.Data/ProjectBuckwheat.Data.csproj", "ProjectBuckwheat.Data/"]
+COPY ["ProjectBuckwheat.Business/ProjectBuckwheat.Business.csproj", "ProjectBuckwheat.Business/"]
+COPY ["ProjectBuckwheat.Infrastructure/ProjectBuckwheat.Infrastructure.csproj", "ProjectBuckwheat.Infrastructure/"]
+
 RUN dotnet restore "ProjectBuckwheat.API/ProjectBuckwheat.API.csproj"
+
 COPY . .
+
 WORKDIR "/src/ProjectBuckwheat.API"
+
 RUN dotnet build "ProjectBuckwheat.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
+
 ARG BUILD_CONFIGURATION=Release
+
 RUN dotnet publish "ProjectBuckwheat.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final

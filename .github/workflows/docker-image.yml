@@ -1,0 +1,28 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Debug .dockerignore
+      run: cat .dockerignore || echo ".dockerignore not found"
+      
+    - uses: actions/checkout@v4
+    
+    - name: List files for debugging
+      run: ls -al
+      
+    - name: Debug ProjectBuckwheat.API folder
+      run: ls -al ProjectBuckwheat.API
+      
+    - name: Build the Docker image
+      run: docker build . --file ./ProjectBuckwheat.API/Dockerfile --tag my-image-name:$(date +%s)
