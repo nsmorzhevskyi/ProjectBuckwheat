@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat", "ProjectBuckwheat\ProjectBuckwheat.csproj", "{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.API", "ProjectBuckwheat.API\ProjectBuckwheat.API.csproj", "{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuackwheat.Data", "ProjectBuackwheat.Data\ProjectBuackwheat.Data.csproj", "{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuackwheat.Business", "ProjectBuackwheat.Business\ProjectBuackwheat.Business.csproj", "{F9A56653-8019-4769-9380-C178632478A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuackwheat.Infrastructure", "ProjectBuackwheat.Infrastructure\ProjectBuackwheat.Infrastructure.csproj", "{11AA943B-02CC-4284-B70E-CC23AB4E3224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A56653-8019-4769-9380-C178632478A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A56653-8019-4769-9380-C178632478A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A56653-8019-4769-9380-C178632478A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A56653-8019-4769-9380-C178632478A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
