@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Business",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Infrastructure", "ProjectBuckwheat.Infrastructure\ProjectBuckwheat.Infrastructure.csproj", "{11AA943B-02CC-4284-B70E-CC23AB4E3224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Domain", "ProjectBuckwheat.Domain\ProjectBuckwheat.Domain.csproj", "{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
