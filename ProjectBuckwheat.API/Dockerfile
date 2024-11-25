@@ -11,7 +11,7 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
 COPY ["ProjectBuckwheat.API/ProjectBuckwheat.API.csproj", "ProjectBuckwheat.API/"]
-COPY ["ProjectBuckwheat.API/ProjectBuckwheat.Domain.csproj", "ProjectBuckwheat.Domain/"]
+COPY ["ProjectBuckwheat.Domain/ProjectBuckwheat.Domain.csproj", "ProjectBuckwheat.Domain/"]
 COPY ["ProjectBuckwheat.Data/ProjectBuckwheat.Data.csproj", "ProjectBuckwheat.Data/"]
 COPY ["ProjectBuckwheat.Business/ProjectBuckwheat.Business.csproj", "ProjectBuckwheat.Business/"]
 COPY ["ProjectBuckwheat.Infrastructure/ProjectBuckwheat.Infrastructure.csproj", "ProjectBuckwheat.Infrastructure/"]
