@@ -1,14 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.API", "ProjectBuckwheat.API\ProjectBuckwheat.API.csproj", "{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Data", "ProjectBuckwheat.Data\ProjectBuckwheat.Data.csproj", "{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0ED84FC-B3F3-492D-A42F-02FF79985827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Business", "ProjectBuckwheat.Business\ProjectBuckwheat.Business.csproj", "{F9A56653-8019-4769-9380-C178632478A1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{53448F01-52B7-4841-961D-005EE6ACE09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Infrastructure", "ProjectBuckwheat.Infrastructure\ProjectBuckwheat.Infrastructure.csproj", "{11AA943B-02CC-4284-B70E-CC23AB4E3224}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.API", "src\ProjectBuckwheat.API\ProjectBuckwheat.API.csproj", "{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Domain", "ProjectBuckwheat.Domain\ProjectBuckwheat.Domain.csproj", "{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Infrastructure", "src\ProjectBuckwheat.Infrastructure\ProjectBuckwheat.Infrastructure.csproj", "{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Data", "src\ProjectBuckwheat.Data\ProjectBuckwheat.Data.csproj", "{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Business", "src\ProjectBuckwheat.Business\ProjectBuckwheat.Business.csproj", "{2036F7FA-CE2A-46BA-8025-BFEADBB83363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Domain", "src\ProjectBuckwheat.Domain\ProjectBuckwheat.Domain.csproj", "{1DEE469D-03E6-43F8-A36B-2F902CD0D085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,25 +22,32 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B74DC981-3DA2-4DFF-BEA4-73838EDDFE68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9635FBB-E7C7-4646-B96E-D38A50FFE8CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9A56653-8019-4769-9380-C178632478A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9A56653-8019-4769-9380-C178632478A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9A56653-8019-4769-9380-C178632478A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9A56653-8019-4769-9380-C178632478A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11AA943B-02CC-4284-B70E-CC23AB4E3224}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC002E01-AC6C-4608-93F7-DABB4CB5E71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2036F7FA-CE2A-46BA-8025-BFEADBB83363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2036F7FA-CE2A-46BA-8025-BFEADBB83363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2036F7FA-CE2A-46BA-8025-BFEADBB83363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2036F7FA-CE2A-46BA-8025-BFEADBB83363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
+		{2036F7FA-CE2A-46BA-8025-BFEADBB83363} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
+		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
+		{1DEE469D-03E6-43F8-A36B-2F902CD0D085} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
+		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
 	EndGlobalSection
 EndGlobal
