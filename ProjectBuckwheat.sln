@@ -6,15 +6,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{53448F01-52B7-4841-961D-005EE6ACE09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.API", "src\ProjectBuckwheat.API\ProjectBuckwheat.API.csproj", "{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckwheat.API", "src\Buckwheat.API\Buckwheat.API.csproj", "{520FD7C1-BFF6-44BB-ABC8-DFE278386E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Infrastructure", "src\ProjectBuckwheat.Infrastructure\ProjectBuckwheat.Infrastructure.csproj", "{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckwheat.Infrastructure", "src\Buckwheat.Infrastructure\Buckwheat.Infrastructure.csproj", "{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Data", "src\ProjectBuckwheat.Data\ProjectBuckwheat.Data.csproj", "{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckwheat.Data", "src\Buckwheat.Data\Buckwheat.Data.csproj", "{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Business", "src\ProjectBuckwheat.Business\ProjectBuckwheat.Business.csproj", "{2036F7FA-CE2A-46BA-8025-BFEADBB83363}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckwheat.Business", "src\Buckwheat.Business\Buckwheat.Business.csproj", "{2036F7FA-CE2A-46BA-8025-BFEADBB83363}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuckwheat.Domain", "src\ProjectBuckwheat.Domain\ProjectBuckwheat.Domain.csproj", "{1DEE469D-03E6-43F8-A36B-2F902CD0D085}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckwheat.Domain", "src\Buckwheat.Domain\Buckwheat.Domain.csproj", "{1DEE469D-03E6-43F8-A36B-2F902CD0D085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuckwheatIdentity.API", "src\BuckwheatIdentity.API\BuckwheatIdentity.API.csproj", "{CE2BA60F-8DB0-425E-86AA-A9F9866776D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEE469D-03E6-43F8-A36B-2F902CD0D085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2BA60F-8DB0-425E-86AA-A9F9866776D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2BA60F-8DB0-425E-86AA-A9F9866776D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2BA60F-8DB0-425E-86AA-A9F9866776D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2BA60F-8DB0-425E-86AA-A9F9866776D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{520FD7C1-BFF6-44BB-ABC8-DFE278386E08} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
@@ -49,5 +55,6 @@ Global
 		{48D69AC3-9CE5-42B1-8C4A-7C42CE8D8AB6} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
 		{1DEE469D-03E6-43F8-A36B-2F902CD0D085} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
 		{4AC2F674-2B0A-4D62-A040-0DC9B2CA8C11} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
+		{CE2BA60F-8DB0-425E-86AA-A9F9866776D7} = {5FF7BC3B-8FCA-4CDD-BE2E-E64FC454CF86}
 	EndGlobalSection
 EndGlobal
