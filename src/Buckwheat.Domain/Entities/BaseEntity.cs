@@ -1,4 +1,4 @@
-namespace ProjectBuckwheat.Domain.Entities;
+namespace Buckwheat.Domain.Entities;
 
 public class BaseEntity
 {
